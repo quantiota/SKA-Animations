@@ -16,5 +16,7 @@ Developed by **Bouarfa Mahi** at **Quantiota**.
 
 *More animations coming soon.*
 
+## Contribution
 
+Contributors are welcome.
 
