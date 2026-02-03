@@ -19,8 +19,9 @@ This animation visualizes the key concepts from the paper by **Bouarfa Mahi** (Q
 |------|-------------|
 | `ska_entropy_animation.py` | Main Manim animation script |
 | `generate_audio.py` | TTS narration generator (edge-tts) |
-| `audio/` | 14 narration audio files |
-| `SKAEntropyVideo.mp4` | Final rendered video (1080p60) |
+| `audio/` | 14 narration audio files + background music |
+| `SKAEntropyVideo.mp4` | Rendered video (without music) |
+| `SKAEntropyVideo_with_music.mp4` | Final video with background music |
 
 ## Requirements
 
@@ -44,6 +45,31 @@ manim -ql ska_entropy_animation.py SKAEntropyVideo
 ```bash
 python3 generate_audio.py
 ```
+
+## Adding Background Music
+
+After rendering the video, mix background music with fade-out during credits:
+
+```bash
+# Step 1: Create faded music track (fade from 1:43 to 1:53 during credits)
+ffmpeg -i audio/background_music.mp3 \
+  -af "atrim=0:113,asetpts=PTS-STARTPTS,volume=0.25,afade=t=out:st=103:d=10" \
+  -ar 24000 -ac 1 /tmp/music_faded.wav -y
+
+# Step 2: Mix with video
+ffmpeg -i media/videos/ska_entropy_animation/480p15/SKAEntropyVideo.mp4 \
+  -i /tmp/music_faded.wav \
+  -filter_complex "[0:a]apad=whole_dur=113[v];[1:a]apad=whole_dur=113[m];[v][m]amix=inputs=2:duration=longest:normalize=0" \
+  -c:v copy SKAEntropyVideo_with_music.mp4 -y
+```
+
+**Parameters:**
+| Parameter | Value | Description |
+|-----------|-------|-------------|
+| `volume=0.25` | 25% | Background music volume level |
+| `st=103` | 1:43 | Fade start time (when credits begin) |
+| `d=10` | 10s | Fade duration (credits length) |
+| `normalize=0` | off | Disable auto-normalization to preserve fade |
 
 ## Key Insight
 
