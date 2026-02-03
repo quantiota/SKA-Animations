@@ -1,5 +1,7 @@
 # SKA Entropy Animation
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D1bBI5V3Huc?si=u017_wF7oeMSYxOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 A Manim animation explaining **SKA Entropy as a Local Field** - a paradigm shift from classical information theory where entropy is redefined as a spatially varying field rather than a global scalar.
 
 ## Overview
