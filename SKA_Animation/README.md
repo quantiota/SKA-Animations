@@ -1,6 +1,6 @@
 # SKA Entropy Animation
 
-[![Watch the video](https://img.youtube.com/vi/D1bBI5V3Huc/hqdefault.jpg)](https://www.youtube.com/embed/D1bBI5V3Huc>)
+
 
 [<img src="https://img.youtube.com/vi/D1bBI5V3Huc/hqdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/D1bBI5V3Huc)
