@@ -2,7 +2,7 @@
 
 
 
-[<img src="https://img.youtube.com/vi/D1bBI5V3Huc/hqdefault.jpg" width="600" height="300"
+[<img src="thumbnail.jpg" width="500" height="280"
 />](https://www.youtube.com/embed/D1bBI5V3Huc)
 
 
