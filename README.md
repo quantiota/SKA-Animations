@@ -13,6 +13,7 @@ Developed by **Bouarfa Mahi** at **Quantiota**.
 | # | Animation | Folder |
 |---|-----------|--------|
 | 1 | Entropy as a Local Field | `ska_local_entropy/` |
+| 1 | The Three Law of Intelligence | `the_three_law_of_intelligence/` |
 
 *More animations coming soon.*
 
