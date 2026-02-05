@@ -95,7 +95,7 @@ H → L → g_ij
 (Entropy) → (Lagrangian) → (Metric)
 ```
 
-- **Shannon's entropy** generates the Lagrangian
+- **SKA entropy** generates the Lagrangian
 - **Lagrange's action** gives rise to the Riemannian metric
 - This mirrors the great symmetries of physics: from potential to motion to geometry
 
