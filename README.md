@@ -15,6 +15,7 @@ Developed by **Bouarfa Mahi** at **Quantiota**.
 | 1 | Entropy as a Local Field | `ska_local_entropy/` |
 | 2 | The Three Laws of Intelligence | `the_three_law_of_intelligence/` |
 | 3 | The Trilogy | `the_trilogy/` |
+| 3 | The Fridge Case | `the_fridge_case` |
 
 *More animations coming soon.*
 
