@@ -23,6 +23,11 @@ Developed by **Bouarfa Mahi** at **Quantiota**.
 
 A comprehensive [video course](https://github.com/quantiota/Udemy) covering the three foundational papers of the Structured Knowledge Accumulation (SKA) framework by Bouarfa Mahi (Quantiota, 2026).
 
+
+## Development Environment
+
+[AI Agent Host](https://github.com/quantiota/AI-Agent-Host) with Claude Code
+
 ## Contribution
 
 Contributors are welcome.
