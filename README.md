@@ -8,6 +8,14 @@ SKA reimagines neural computation as continuous fields where entropy, knowledge,
 
 Developed by **Bouarfa Mahi** at **Quantiota**.
 
+## Source Papers
+
+| Paper | Title | Location |
+|-------|-------|----------|
+| I | Structured Knowledge Accumulation: Layer-Wise Entropy Reduction | `papers/arXiv-2503.13942v1/` |
+| II | SKA: The Principle of Entropic Least Action | `papers/arXiv-2504.03214v1/` |
+| III | SKA: Geodesic Learning Paths in Riemannian Neural Fields | `papers/riemannian_neural_fields/` |
+
 ## Animations
 
 | # | Animation | Folder |
