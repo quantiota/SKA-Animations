@@ -27,10 +27,6 @@ Developed by **Bouarfa Mahi** at **Quantiota**.
 
 *More animations coming soon.*
 
-## Udemy Video Course
-
-A comprehensive [video course](https://github.com/quantiota/Udemy) covering the three foundational papers of the Structured Knowledge Accumulation (SKA) framework by Bouarfa Mahi (Quantiota, 2026).
-
 
 ## Development Environment
 
