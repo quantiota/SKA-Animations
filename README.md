@@ -32,6 +32,11 @@ Developed by **Bouarfa Mahi** at **Quantiota**.
 
 [AI Agent Host](https://github.com/quantiota/AI-Agent-Host) with Claude Code
 
+
+## SKA Academy
+
+[SKA Academy](https://github.com/quantiota/SKA-Academy)
+
 ## Contribution
 
 Contributors are welcome.
