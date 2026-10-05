@@ -2,7 +2,7 @@
 
 
 
-[<img src="https://raw.githubusercontent.com/quantiota/SKA-Animations/refs/heads/main/SKA_Animation/ska_local_entropy/thumbnail.png" width="500" height="280"
+[<img src="https://github.com/quantiota/SKA-Animations/blob/main/ska_local_entropy/thumbnail.png" width="500" height="280"
 />](https://www.youtube.com/watch?v=D1bBI5V3Huc)
 
 
